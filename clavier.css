@@ -1,0 +1,48 @@
+
+.table {
+    border-collapse: collapse;
+    width: 300px; 
+}
+
+.cell {
+    border: 1px solid #000000;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.cell-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+.cell:first-child {
+    font-weight: bold;
+}
+
+
+tr:first-child .cell {
+    background-color: #f2f2f2;
+
+
+
+}
+.nombre{height: 40px;
+width: 40px;}
+.bouton1 {
+    margin-bottom: 10px;
+}
+.bouton2 {
+    margin-bottom: 10px;
+}
+.bouton3 {
+    margin-bottom: 10px;
+}
+#ecran{
+    height: 40px;
+    width: 100px;
+    border: #000000 solid 1px;
+    margin-bottom: 10px;
+  
+}
